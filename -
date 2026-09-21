@@ -1,0 +1,174 @@
+2026-09-21 03:36:02,025 63430 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:02,026 63430 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:02,026 63430 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:02,026 63430 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-21 03:36:02,026 63430 INFO ? odoo: Odoo version 19.0 
+2026-09-21 03:36:02,026 63430 INFO ? odoo: Using configuration file at /home/soporte/odoo/odoo_19/odoo-server.conf 
+2026-09-21 03:36:02,027 63430 INFO ? odoo: addons paths: _NamespacePath(['/home/soporte/odoo/odoo_19/odoo/addons', '/home/soporte/.local/share/Odoo/addons/19.0', '/home/soporte/odoo/odoo_19/addons']) 
+2026-09-21 03:36:02,027 63430 INFO ? odoo: database: soporte@default:default 
+2026-09-21 03:36:02,449 63430 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2026-09-21 03:36:02,625 63430 INFO ? odoo.service.server: HTTP service (werkzeug) running on soporte:8069 
+2026-09-21 03:36:03,308 63430 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-21 03:36:03,308 63430 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-21 03:36:21,620 63560 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:21,621 63560 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:21,621 63560 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/soporte/odoo/odoo_19/odoo-server.conf but isn't a boolean option, skip 
+2026-09-21 03:36:21,621 63560 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-21 03:36:21,621 63560 INFO ? odoo: Odoo version 19.0 
+2026-09-21 03:36:21,622 63560 INFO ? odoo: Using configuration file at /home/soporte/odoo/odoo_19/odoo-server.conf 
+2026-09-21 03:36:21,622 63560 INFO ? odoo: addons paths: _NamespacePath(['/home/soporte/odoo/odoo_19/odoo/addons', '/home/soporte/.local/share/Odoo/addons/19.0', '/home/soporte/odoo/odoo_19/addons']) 
+2026-09-21 03:36:21,622 63560 INFO ? odoo: database: soporte@default:default 
+2026-09-21 03:36:21,966 63560 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2026-09-21 03:36:21,973 63560 INFO ? odoo.service.server: HTTP service (werkzeug) running on soporte:8069 
+2026-09-21 03:36:32,083 63560 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-09-21 03:36:32,089 63560 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-21 03:36:32,102 63560 WARNING ? odoo.modules.module_graph: module web_responsive: not installable, skipped 
+2026-09-21 03:36:32,141 63560 INFO ? odoo.modules.loading: loading 112 modules... 
+2026-09-21 03:36:33,031 63560 INFO ? odoo.modules.loading: 112 modules loaded in 0.89s, 0 queries (+0 extra) 
+2026-09-21 03:36:33,387 63560 ERROR ? odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['web_responsive'] 
+2026-09-21 03:36:33,388 63560 INFO ? odoo.modules.loading: Modules loaded. 
+2026-09-21 03:36:33,466 63560 INFO ? odoo.registry: Registry loaded in 1.401s 
+2026-09-21 03:36:33,470 63560 INFO goca-odoo odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2026-09-21 03:36:34,115 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 184. Replace by @t-out 
+2026-09-21 03:36:34,117 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 184. Replace by @t-out 
+2026-09-21 03:36:34,117 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 184. Replace by @t-out 
+2026-09-21 03:36:34,123 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:34] "GET /odoo/sales/79/action-543 HTTP/1.1" 200 - 145 0.085 1.974
+2026-09-21 03:36:34,285 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/0c/0c81cfadcc3a74ecea0f30b1720840655d971e87 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/0c/0c81cfadcc3a74ecea0f30b1720840655d971e87'
+2026-09-21 03:36:34,286 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/aa/aa2cad94340900f9e642750f42295ca97ab0ec81 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/aa/aa2cad94340900f9e642750f42295ca97ab0ec81'
+2026-09-21 03:36:34,286 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/f9/f9cf2c8b67d3ebc89ca4d180ef207a248c4e3130 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/f9/f9cf2c8b67d3ebc89ca4d180ef207a248c4e3130'
+2026-09-21 03:36:34,286 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/a4/a4511b76524b49a86d44d27508dd20f056bfe827 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/a4/a4511b76524b49a86d44d27508dd20f056bfe827'
+2026-09-21 03:36:34,287 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/51/517a97a04c19cdd67572ff8a0ef89fad5a2c278e 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/51/517a97a04c19cdd67572ff8a0ef89fad5a2c278e'
+2026-09-21 03:36:34,287 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/37/3709cc2e0d5df4c199f96c6d07e2aaf29a63bcba 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/37/3709cc2e0d5df4c199f96c6d07e2aaf29a63bcba'
+2026-09-21 03:36:34,287 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/a2/a2094f7db95831ba027e182bbc3f480be6fd0088 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/a2/a2094f7db95831ba027e182bbc3f480be6fd0088'
+2026-09-21 03:36:34,288 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/1c/1c16002d10f6155661a6ae83417fee29e281fb7b 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/1c/1c16002d10f6155661a6ae83417fee29e281fb7b'
+2026-09-21 03:36:34,288 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/f3/f31bdf173e5748b875ca5e389e1edba54b4bff25 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/f3/f31bdf173e5748b875ca5e389e1edba54b4bff25'
+2026-09-21 03:36:34,289 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/c2/c21721ec3ec2e8d086eebf804e0ede5f25aa14d7 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/c2/c21721ec3ec2e8d086eebf804e0ede5f25aa14d7'
+2026-09-21 03:36:34,289 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/c2/c2f49a19f3cf050243e62b22cde5072cca84fcaa 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/c2/c2f49a19f3cf050243e62b22cde5072cca84fcaa'
+2026-09-21 03:36:34,289 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/5e/5e1a46f3ba53e2d6329ba3c74fa21b8acd8fd6c7 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/5e/5e1a46f3ba53e2d6329ba3c74fa21b8acd8fd6c7'
+2026-09-21 03:36:34,290 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/74/744fc247b813c44f4cf02357706e88b283cb0f97 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/74/744fc247b813c44f4cf02357706e88b283cb0f97'
+2026-09-21 03:36:34,290 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/3d/3d7a7360fe4a73a90dd3b4ba554a9254ed61e864 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/3d/3d7a7360fe4a73a90dd3b4ba554a9254ed61e864'
+2026-09-21 03:36:34,290 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/b7/b73a9deb85def8a1a00e4d545c4f79747d78f487 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/b7/b73a9deb85def8a1a00e4d545c4f79747d78f487'
+2026-09-21 03:36:34,297 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:34] "GET /web/webclient/load_menus HTTP/1.1" 200 - 26 0.014 0.027
+2026-09-21 03:36:34,603 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 10 0.004 0.005
+2026-09-21 03:36:34,907 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:34] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.049 0.032
+2026-09-21 03:36:34,967 63560 INFO goca-odoo odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-09-21 03:36:34,968 63560 INFO goca-odoo odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2026-09-21 03:36:34,978 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:34] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 - 1 0.005 0.031
+2026-09-21 03:36:34,997 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/0a/0adf2cc06d00a5661be2f8d8a6ff641818f86b83 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/0a/0adf2cc06d00a5661be2f8d8a6ff641818f86b83'
+2026-09-21 03:36:35,029 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.053 0.074
+2026-09-21 03:36:35,292 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:35] "POST /mail/data HTTP/1.1" 200 - 32 0.259 0.066
+2026-09-21 03:36:35,412 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:35] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.007
+2026-09-21 03:36:35,628 63560 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-09-21 03:36:35,764 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo Report'" in template 198. Replace by @t-out 
+2026-09-21 03:36:37,080 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:37] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.016
+2026-09-21 03:36:37,713 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='quantity_in_product_uom' in template 1529. Replace by @t-out 
+2026-09-21 03:36:37,808 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='quantity_in_product_uom' in template 1529. Replace by @t-out 
+2026-09-21 03:36:38,118 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='quantity_in_product_uom' in template 1529. Replace by @t-out 
+2026-09-21 03:36:38,616 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="company.country_id.vat_label or 'Tax ID'" in template 211. Replace by @t-out 
+2026-09-21 03:36:38,632 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='company.vat' in template 211. Replace by @t-out 
+2026-09-21 03:36:38,638 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="company.country_id.vat_label or 'Tax ID'" in template 211. Replace by @t-out 
+2026-09-21 03:36:38,649 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='forced_vat' in template 211. Replace by @t-out 
+2026-09-21 03:36:38,680 63560 INFO goca-odoo odoo.addons.base.models.ir_attachment: _read_file reading /home/soporte/.local/share/Odoo/filestore/goca-odoo/73/73b70352962ffe47b070ddde261d925950c84e30 
+Traceback (most recent call last):
+  File "/home/soporte/odoo/odoo_19/odoo/addons/base/models/ir_attachment.py", line 151, in _file_read
+    with open(full_path, 'rb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/soporte/.local/share/Odoo/filestore/goca-odoo/73/73b70352962ffe47b070ddde261d925950c84e30'
+2026-09-21 03:36:38,739 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='address or None' in template 204. Replace by @t-out 
+2026-09-21 03:36:38,791 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='quantity_in_product_uom' in template 1529. Replace by @t-out 
+2026-09-21 03:36:40,238 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='name' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,241 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='address' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,247 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='phone' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,248 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='mobile' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,257 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='website' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,259 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='email' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,260 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='vat_label' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,260 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='vat' in template 95. Replace by @t-out 
+2026-09-21 03:36:40,271 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='name' in template 94. Replace by @t-out 
+2026-09-21 03:36:40,272 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='object.parent_name' in template 94. Replace by @t-out 
+2026-09-21 03:36:40,309 63560 WARNING goca-odoo odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='quantity_in_product_uom' in template 1529. Replace by @t-out 
+2026-09-21 03:36:40,378 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:40] "GET /report/html/sale.report_saleorder/79?context={"lang":"es_VE","tz":"America/Caracas","uid":2,"allowed_company_ids":[1]} HTTP/1.1" 200 - 131 0.696 4.265
+2026-09-21 03:36:40,926 63560 INFO goca-odoo werkzeug: 127.0.0.1 - - [21/Sep/2026 03:36:40] "GET /web/webclient/translations?hash=d4df2674b4b59c52e8ae2bf1a3b6e711e4d172c9&lang=es_VE HTTP/1.1" 200 - 2 0.001 6.136
+2026-09-21 03:42:31,692 63560 INFO ? odoo.service.server: Initiating shutdown 
+2026-09-21 03:42:31,692 63560 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-21 03:42:32,160 63560 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  

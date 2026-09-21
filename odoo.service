@@ -1,0 +1,17 @@
+[Unit]
+Description=Odoo 19
+Requires=postgresql.service
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=soporte
+Group=soporte
+WorkingDirectory=/home/soporte/odoo/odoo_19
+ExecStart=/home/soporte/odoo/odoo_19/.venv/bin/python /home/soporte/odoo/odoo_19/odoo-bin -c /home/soporte/odoo/odoo_19/odoo-server.conf
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=30s
+
+[Install]
+WantedBy=multi-user.target
