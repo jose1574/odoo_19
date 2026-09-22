@@ -1,7 +1,7 @@
 # sphinx build directories
 _build/
 
-
+odoo.log
 # entorno virutal
 venv/
 # dotfiles

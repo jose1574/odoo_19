@@ -2,11 +2,11 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON="$ROOT_DIR/.venv/bin/python"
+PYTHON="$ROOT_DIR/venv/bin/python"
 CONFIG="$ROOT_DIR/odoo-server.conf"
 
 if [[ ! -x "$PYTHON" ]]; then
-    echo "No se encontró el entorno virtual en $ROOT_DIR/.venv" >&2
+    echo "No se encontró el entorno virtual en $ROOT_DIR/venv" >&2
     exit 1
 fi
 
@@ -20,5 +20,6 @@ cd "$ROOT_DIR"
 exec "$PYTHON" "$ROOT_DIR/odoo-bin" \
     -c "$CONFIG" \
     --dev=all \
-    --logfile=- \
+    --logfile=/dev/stderr \
+    --log-level=info \
     "$@"
